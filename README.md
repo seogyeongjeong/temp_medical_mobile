@@ -1,1 +1,0 @@
-# temp_medical_mobile
