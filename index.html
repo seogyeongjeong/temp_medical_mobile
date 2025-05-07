@@ -210,8 +210,22 @@ function baba(oo){
 
 
     <div id="hd_pops_113" class="hd_pops" style="top:10px;left:10px;">
-        <div class="hd_pops_con" style="width:750px;height:630px">
-            <p><br style="clear:both;" /> <img src="./에이스신경과_mobile/popup-1.png" title="popup-1.png" alt="popup-1.png"></p>        </div>
+        <!-- <div class="hd_pops_con" style="width:750px;height:630px">
+            <p><br style="clear:both;" /> <img src="./에이스신경과_mobile/popup-1.png" title="popup-1.png" alt="popup-1.png"></p>        </div> -->
+		<!-- 배경 포함 콘텐츠 -->
+		<div class="hd_pops_con" style="width:750px;height:630px; position:relative; background: url('./에이스신경과_mobile/popup-1.png') no-repeat center top; background-size: contain;">
+        
+			<!-- 버튼 1 -->
+			<a href="https://www.youtube.com/" target="_blank" style="position:absolute; top:400px; left:50px;">
+			  <img src="./에이스신경과_mobile/popup-1-button1.png" alt="popup-1-button1">
+			</a>
+		
+			<!-- 버튼 2 -->
+			<a href="https://naver.com" target="_blank" style="position:absolute; top:400px; left:250px;">
+			  <img src="./에이스신경과_mobile/popup-1-button2.png" alt="popup-1-button2">
+			</a>
+		
+		  </div>
         <div class="hd_pops_footer">
             <button class="hd_pops_reject hd_pops_113 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
             <button class="hd_pops_close hd_pops_113">닫기</button>
