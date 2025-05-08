@@ -67,7 +67,7 @@ body {background:#0f1f2a;}
 
 /* header */
 #header {width:800px; height:160px; background:#fff; position:relative;}
-#header h1 {position:absolute; top:48px; left:30px;}
+#header h1 {position:absolute; top:48px; left:30px; width:400px; height:100px; }
 #header h1 a {display:block;}
 #header .gnb {position:absolute; top:36px; right:30px;}
 #header .gnb li {display:inline-block;}
