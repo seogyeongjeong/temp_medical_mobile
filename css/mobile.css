@@ -137,7 +137,7 @@ body {background:#0f1f2a;}
 .m_visual .ban_control {bottom:40px;}
 .m_visual .ban_control a {background:rgba(255,255,255,0.5);}
 .m_visual .ban_control a.current {background:#fff;} */
-.m_visual {width:800px; height:300px; position:relative;}
+.m_visual {width:800px; height:500px; position:relative;}
 
 /* main contents : banner type A */
 .m_banner_A {width:800px; height:auto;}
