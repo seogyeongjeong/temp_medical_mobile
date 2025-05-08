@@ -66,6 +66,10 @@ var g5_cookie_domain = "";
 
 <script>
 const siteMainURL = "https://seogyeongjeong.github.io/temp_medical_mobile/";
+const phoneNumber = "02-000-0000"; // Replace with the actual phone number
+
+document.getElementById("siteLink").href = siteMainURL;
+document.getElementById("callLink").href = `tel:${phoneNumber}`;
 </script>
 
 <!-- <script src="http://www.aceneuro.co.kr/js/jquery-1.8.3.min.js"></script>
@@ -287,8 +291,8 @@ $(function() {
 	<div id="header">
 		<h1 ><a id="siteLink" href="#"><img src="./media/main_logo.png" alt="서울아산신경과" style="width: 100%;" /></a></h1>
 		<ul class="gnb">
-			<li><a href="tel:02-422-1145"><img src="http://www.aceneuro.co.kr/mobile/image/common/bt_call.png" alt=""></a></li>
-			<li><a href="javascript:;" class="fullmenu_bt_open"><img src="http://www.aceneuro.co.kr/mobile/image/common/bt_menu.png" alt=""></a></li>
+			<li><a href="callLink"><img src="./media/main_phone_icon.png" alt=""></a></li>
+			<li><a href="javascript:;" class="fullmenu_bt_open"><img src="./media/main_menu_icon.png" alt=""></a></li>
 		</ul>
 		<div class="full_menu" style="display:none;">
 			<div class="h_box">
@@ -376,7 +380,7 @@ $(function() {
 	</div>
 	<!-- header -->
 	<script>
-		document.getElementById("siteLink").href = siteMainURL;
+		
 		$( ".depth1" ).click(function(){
 			var target = $( this ).closest( "li" ).find( ".depth2" );
 			target.slideToggle( 200 );
