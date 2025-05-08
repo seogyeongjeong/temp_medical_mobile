@@ -68,8 +68,6 @@ var g5_cookie_domain = "";
 const siteMainURL = "https://seogyeongjeong.github.io/temp_medical_mobile/";
 const phoneNumber = "025784532"; // Replace with the actual phone number
 
-document.getElementById("siteLink").href = siteMainURL;
-document.getElementById("callLink").href = `tel:${phoneNumber}`;
 </script>
 
 <!-- <script src="http://www.aceneuro.co.kr/js/jquery-1.8.3.min.js"></script>
@@ -380,6 +378,9 @@ $(function() {
 	</div>
 	<!-- header -->
 	<script>
+		
+		document.getElementById("siteLink").href = siteMainURL;
+		document.getElementById("callLink").href = `tel:${phoneNumber}`;
 		
 		$( ".depth1" ).click(function(){
 			var target = $( this ).closest( "li" ).find( ".depth2" );
