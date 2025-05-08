@@ -71,6 +71,22 @@ body {background:#0f1f2a;}
 #header h1 a {display:block;}
 #header .gnb {position:absolute; top:36px; right:30px;}
 #header .gnb li {display:inline-block;}
+/* 1. h1 박스 크기 설정 */
+#logoBox {
+	width: 200px;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* 2. 이미지가 부모(h1)를 꽉 채우도록 설정 */
+  #logoBox img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+  }
+  
 
 /* full menu */
 .bg_full {position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); z-index:1;}
